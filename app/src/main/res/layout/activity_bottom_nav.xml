@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+
+    <RadioGroup
+        android:id="@+id/rdo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_tj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/ma_tab_recommend_selector"
+            android:gravity="center"
+            android:text="推荐"
+            android:textColor="@color/main_tab_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_pd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_tab_channel_selector"
+            android:gravity="center"
+            android:text="频道"
+            android:textColor="@color/main_tab_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_ph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_tab_rank_selector"
+            android:gravity="center"
+            android:text="排行"
+            android:textColor="@color/main_tab_text_color" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_tab_user_selector"
+            android:gravity="center"
+            android:text="我"
+            android:textColor="@color/main_tab_text_color" />
+    </RadioGroup>
+
+</LinearLayout>

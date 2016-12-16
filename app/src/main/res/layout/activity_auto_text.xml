@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tangcco.application22.ui.AutoScrollTextView
+        android:id="@+id/auto"
+        android:layout_width="fill_parent"
+        android:layout_height="30px"
+        android:background="#EEE"
+        android:inputType="text"
+        android:text="你好，你能滚动吗?"
+        android:textColor="#000"
+        android:textSize="20px" />
+
+</RelativeLayout>

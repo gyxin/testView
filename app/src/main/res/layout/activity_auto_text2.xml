@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.tangcco.application22.view.MarqueeView
+        android:id="@+id/marqueeView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:mvAnimDuration="1000"
+        app:mvInterval="3000"
+        app:mvTextColor="@color/black"
+        app:mvTextSize="14sp"/>
+
+    <!--<view
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/abc_search_url_text"/>-->
+
+    <com.tangcco.application22.view.MarqueeView
+        android:id="@+id/marqueeView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:mvAnimDuration="1000"
+        app:mvInterval="3000"
+        app:mvTextColor="@color/switch_thumb_disabled_material_dark"
+        app:mvTextSize="14sp"/>
+
+</LinearLayout>
