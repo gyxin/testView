@@ -16,13 +16,17 @@
         <activity
             android:name=".AutoTextActivity"
             android:label="@string/title_activity_auto_text">
+
+        </activity>
+        <activity
+            android:name=".Recyview"
+            android:label="@string/title_activity_auto_text">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Recyview"></activity>
     </application>
 
 </manifest>
